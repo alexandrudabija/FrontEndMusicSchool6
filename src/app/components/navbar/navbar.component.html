@@ -16,8 +16,8 @@ sticky  top-0 max-lg:grid-rows-2 ">
 
 
 
-    <button style="letter-spacing: 0.1cm; " *ngIf="!login()"    routerLinkActive="active" routerLink="/signIn">Sing in </button>
-<button style="letter-spacing: 0.1cm; "  *ngIf="!login()" routerLinkActive="active" routerLink="/signUp">Sing up </button>
+    <button style="letter-spacing: 0.1cm; " *ngIf="!login()"    routerLinkActive="active" routerLink="/signIn">Sign in </button>
+<button style="letter-spacing: 0.1cm; "  *ngIf="!login()" routerLinkActive="active" routerLink="/signUp">Sign up </button>
 
 <button style="letter-spacing: 0.1cm; "  *ngIf="login()" routerLinkActive="active" routerLink="/user">My account   </button>
 <button style="letter-spacing: 0.1cm; " *ngIf="login()" routerLinkActive="active" (click)="logout()" >Logout   </button>
